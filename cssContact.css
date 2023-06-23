@@ -1,0 +1,225 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.Header {
+    width: 100%;
+    height: 800px;
+    background-image: url(image/banner_background.jpg.png);
+}
+
+.Nav_Bar .Navigation .Frame {
+    width: 100%;
+    height: 664px;
+    background-image: url(image/Frame.png);
+    background-size: 100% 872px;
+    margin-top: 44px;
+}
+
+
+.Header .Nav_Bar {
+    width: 100%;
+    height: 145px;
+    background-image: url(image/header_bar.png);
+}
+
+.Header .Nav_Bar .Navigation {
+    width: 100%;
+    height: 145px;
+    float: right;
+    margin-top: 0px;
+}
+
+
+.Nav_Bar .Navigation .nav_link {
+    width: 83%;
+    height: 150px;
+    margin-left: 55px;
+    margin-top: -75px;
+    float: left;
+    padding-left: 259px;
+}
+
+.Navigation .nav_link a {
+    width: 167px;
+    height: 42px;
+    float: left;
+    font-family: "Enchanted Land";
+    color: hsla(35,49%,81%,1.00);
+    font-size: 39px;
+    background-image: url(image/Nav%20backing.png);
+    padding-top: 25px;
+    padding-bottom: 29px;
+    margin-top: -18px;
+    background-position: 0% 0%;
+    background-size: 13pc 96px;
+    margin-right: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    left: 91px;
+    text-align: center;
+    text-shadow: 3px 0px hsla(45,28%,31%,1.00);
+}
+.Navigation .nav_link a:hover  {
+    width: 167px;
+    height: 42px;
+    float: left;
+    font-family: "Enchanted Land";
+    color: hsla(35,49%,81%,1.00);
+    font-size: 39px;
+    background-image: url(image/Nav%20backing_hover.png);
+    padding-top: 25px;
+    padding-bottom: 29px;
+    margin-top: -18px;
+    background-position: 0% 0%;
+    background-size: 13pc 96px;
+    margin-right: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    left: 91px;
+    text-align: center;
+    text-shadow: 3px 0px hsla(45,28%,31%,1.00);
+    font-style: italic;
+}
+.Nav_Bar .Navigation .nav_logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 12px;
+    margin-top: 16px;
+    margin-bottom: -23px;
+}
+.Footer {
+    width: 100%;
+    height: 200px;
+    background-image: url(image/footer_bar.png);
+}
+.Footer .Footer_container {
+    width: 940px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.Footer_Content1 {
+    width: 300px;
+    height: 176px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Copperplate Gothic Bold";
+    color: hsla(0,0%,0%,1.00);
+    font-size: 18px;
+}
+.Footer_Content1 h4 {
+    width: 194px;
+    height: 5px;
+    background-image: url(image/Nav%20backing.png);
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    padding-top: 26px;
+    padding-bottom: 36px;
+    margin-left: 51px;
+    margin-bottom: 11px;
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Enchanted Land";
+    font-size: 24px;
+    text-shadow: 0 0px;
+}
+.Contact_Us {
+    width: 80%;
+    height: 600px;
+    margin-left: 20%;
+    margin-top: 28px;
+    margin-right: 20%;
+}
+.Header .Contact_Us h4 {
+    width: 45%;
+    height: 30px;
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Enchanted Land";
+    font-size: 30px;
+    text-align: center;
+    margin-left: 162px;
+}
+.Contact_Us h1 {
+    width: 300px;
+    height: 67px;
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Enchanted Land";
+    font-size: 62px;
+    margin-left: 300px;
+}
+.Social_Medialinks {
+    width: 86%;
+    height: 400px;
+    display: flex;
+    margin-top: 90px;
+    margin-left: -17px;
+}
+.Discord {
+    width: 25%;
+    height: 200px;
+    background-image: url(image/Discord.png);
+    background-size: 88% auto;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.Discord:hover {
+    width: 33%;
+    height: 200px;
+    background-image: url(image/Discord.png);
+    background-size: 88% auto;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.Youtube {
+    width: 25%;
+    height: 200px;
+    background-image: url(image/youtube.png);
+    background-size: 97% auto;
+    background-repeat: no-repeat;
+}
+.Youtube:hover {
+    width: 30%;
+    height: 200px;
+    background-image: url(image/youtube.png);
+    background-size: 97% auto;
+    background-repeat: no-repeat;
+}
+.Facebook {
+    width: 25%;
+    height: 200px;
+    background-image: url(image/Facebook_Logo.png);
+    background-size: 67% auto;
+    background-repeat: no-repeat;
+    margin-left: 22px;
+}
+.Facebook:hover {
+    width: 30%;
+    height: 200px;
+    background-image: url(image/Facebook_Logo.png);
+    background-size: 67% auto;
+    background-repeat: no-repeat;
+    margin-left: 22px;
+}
+
+
+.Twitter {
+    width: 25%;
+    height: 200px;
+    background-image: url(image/Twitter.png);
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    margin-right: -26px;
+}
+.Twitter:hover {
+    width: 30%;
+    height: 200px;
+    background-image: url(image/Twitter.png);
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    margin-right: -26px;
+}
